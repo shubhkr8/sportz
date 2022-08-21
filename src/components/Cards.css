@@ -1,0 +1,20 @@
+.cards {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background-color: white;
+}
+.card_img {
+  margin-top: 2px;
+  height: 325px;
+}
+.card_desc {
+  display: flex;
+  justify-content: space-around;
+}
+.card_upcomingbody {
+  border: 2px solid pink;
+}

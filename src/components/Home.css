@@ -1,0 +1,25 @@
+.conatiner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.search {
+  margin: 5px;
+}
+.search_input {
+  padding: 10px;
+}
+
+.search_button {
+  padding: 10px;
+  cursor: pointer;
+}
+.player_cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 1rem;
+  justify-content: center;
+}
